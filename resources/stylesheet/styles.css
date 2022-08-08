@@ -1,4 +1,69 @@
 html {
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.mobile {
+    display: none;
+}
+
+#banner-img {
+    width: 60%;
+}
+
+#banner-img img {
+    width: 100%;
+}
+
+#banner-txt {
+    width: 40%;
+    padding: 2rem;
+}
+
+#banner-tagline {
+    font-size: 1.5rem;
+    padding-top: 1.25rem;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media only screen and (max-width:800px) {
+    .banner {
+        background-image: url('../images/banner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+    
+    #banner-img {
+        display: none;
+    }
+
+    #banner-txt {
+        width: 100%;
+        background-color: white;
+        margin: 4rem;
+    }
+
+    #banner-txt h1 {
+        font-size: 2rem;
+    }
+
+    #banner-tagline {
+        font-size: 1rem;
+    }
 }
