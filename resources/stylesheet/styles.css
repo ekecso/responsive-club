@@ -7,18 +7,34 @@ h1 {
     font-size: 3rem;
 }
 
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.25rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.75rem;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
 }
 
 /* Banner */
 .banner {
     display: flex;
-    align-items: center;
-}
-
-.mobile {
-    display: none;
 }
 
 #banner-img {
@@ -32,6 +48,7 @@ p {
 #banner-txt {
     width: 40%;
     padding: 2rem;
+    background-color: white;
 }
 
 #banner-tagline {
@@ -65,5 +82,56 @@ p {
 
     #banner-tagline {
         font-size: 1rem;
+        padding-top: 0.75rem;
     }
+}
+
+/* Events Section */
+#events {
+    justify-content: center;
+    padding: 3rem;
+}
+
+#featured-event {
+    width: 55%;
+    padding: 2rem;
+}
+
+#featured-event img {
+    width: 100%;
+}
+
+#featured-event-text {
+    padding: 1rem 0;
+}
+
+#upcoming-events {
+    width: 45%;
+    flex-direction: column;
+    padding: 2rem 0 2rem 2rem;
+}
+
+.event-block {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.event-block img {
+    width: 100%;
+}
+
+.event-img {
+    width: 50%;
+}
+
+.event-text {
+    width: 65%;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.event-date {
+    font-style: italic;
+    padding-top: 0.25rem;
 }
