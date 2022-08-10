@@ -42,6 +42,7 @@ p, label, button {
     
     h2 {
         font-size: 1.75rem;
+        padding-bottom: 1.5rem;
     }
 
     h3 {
@@ -156,6 +157,43 @@ p, label, button {
     font-style: italic;
     padding-top: 0.25rem;
     color: #FDb913;
+}
+
+@media only screen and (max-width:800px) {
+    #events {
+        padding: 1.5rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    #featured-event {
+        padding: 2rem 2rem 0;
+    }
+
+    #upcoming-events {
+        width: 100%;
+        padding: 0;
+    }
+
+    .event-block {
+        width: 55%;
+        padding: 2rem 2rem 0;
+        display: block;
+        margin: 2rem auto;
+    }
+
+    .event-img {
+        width: 100%;
+    }
+
+    .event-text {
+        padding: 1rem 0;
+        width: 100%;
+    }
 }
 
 /* Classes */
