@@ -19,7 +19,7 @@ h3 {
     font-size: 1.75rem;
 }
 
-p {
+p, label, button {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -160,4 +160,14 @@ p {
 
 .class-block h3 {
     padding: 1rem;
+}
+
+/* Email */
+#email {
+    text-align: center;
+    padding: 3rem;
+}
+
+#email p {
+    padding-bottom: 0.5rem;
 }
