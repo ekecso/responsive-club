@@ -35,6 +35,24 @@ p, label, button {
     align-items: center;
 }
 
+@media only screen and (max-width:800px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}
+
 /* Banner */
 .banner {
     display: flex;
@@ -78,10 +96,6 @@ p, label, button {
         width: 100%;
         background-color: white;
         margin: 4rem;
-    }
-
-    #banner-txt h1 {
-        font-size: 2rem;
     }
 
     #banner-tagline {
