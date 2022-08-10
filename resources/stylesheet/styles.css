@@ -135,3 +135,29 @@ p {
     font-style: italic;
     padding-top: 0.25rem;
 }
+
+/* Classes */
+#classes {
+    justify-content: center;
+    padding: 3rem;
+}
+
+#class-container {
+    display: flex;
+    justify-content: center;
+}
+
+.class-block {
+    width: 30%;
+    background-color: lightslategray;
+    margin: 0 3rem;
+    text-align: center;
+}
+
+.class-block img {
+    width: 100%;
+}
+
+.class-block h3 {
+    padding: 1rem;
+}
