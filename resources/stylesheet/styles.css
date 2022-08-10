@@ -223,6 +223,24 @@ p, label, button {
     padding: 1rem;
 }
 
+@media only screen and (max-width:800px) {
+    #classes {
+        padding: 1.5rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #class-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .class-block {
+        margin: 0 0 2rem 0;
+        width: 75%;
+    }
+}
+
 /* Email */
 #email {
     text-align: center;
